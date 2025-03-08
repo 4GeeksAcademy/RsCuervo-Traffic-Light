@@ -9,3 +9,49 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.stick{
+    width:10px;
+    height: 100px;
+    background-color: black;
+    margin: 0 auto;
+}
+.trafficLight{
+    width: 100px;
+    height: 250px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.lightRed{
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+    border-radius: 50%;
+    background-color: #ff0000;
+}
+.lightYellow{
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.lightGreen{
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+    border-radius: 50%;
+    background-color: green;
+}
+.lightRed.glow{
+    box-shadow: 0 0 20px 10px #ff0000;
+}
+.lightYellow.glow{
+    box-shadow: 0 0 20px 10px yellow;
+}
+.lightGreen.glow{
+    box-shadow: 0 0 20px 10px green;
+}
